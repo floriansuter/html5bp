@@ -1,10 +1,10 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+// Welcome to Compass.
+// In this file you should write your main styles. (or centralize your imports)
+// Import this file using the following HTML or equivalent:
+// <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
-@import "compass/reset";
-@import "inc/base";
+@import 'compass/reset';
+@import 'inc/base';
 
 
 // HTML Elements
@@ -49,8 +49,8 @@ h4 {
 ////////////
 
 ::selection {
-  background: black;
-  color: white;
+  background: #000;
+  color: #fff;
   text-shadow: none;
 }
 
@@ -58,7 +58,7 @@ h4 {
 /////////
 
 body > div {
-  width: 100%;
   overflow-x: hidden;
   position: relative;
+  width: 100%;
 }
